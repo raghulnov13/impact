@@ -1,0 +1,91 @@
+/*  */
+
+
+/* navbar */
+.navbar-brand{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #fff;
+}
+.navbar-brand span{
+    color: #f96f59;
+}
+.navbar-nav{
+    color: #fff;
+}
+.nav-item a{
+    color: #fff;
+}
+.nav-links .active{
+    color: #f85a40;;
+}
+
+.p-0{
+    padding: 0 !important;
+}
+.p-lt-0{
+    padding-left: 0 !important;
+}
+.p-lt-10{
+    padding-left: 10px !important;
+}
+
+/*  */
+.title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.title a{
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+
+/* about */
+.section-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+
+.section-title p {
+    color: #6f6f6f;
+
+
+}
+.about h3{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.about p{
+    margin-bottom: 1rem;
+
+}
+.about ul{
+    
+}
+.about ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+ 
+}
+.about ul li i{
+    /* position: absolute; */
+    font-size: 20px;
+    padding-right: 4px;
+    top: -3px;
+
+}
