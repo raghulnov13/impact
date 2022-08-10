@@ -15,9 +15,9 @@
     <header class="header">
         <div class="header-top" style="background: #00796b; height:40px">
             <div class="container">
-                <div class="row d-flex justify-content-center justify-content-md-between">
+                <div class="row ">
                     <div class="col-lg-6">
-                        <div class="info">
+                        <div class="info d-flex align-items-center">
                             <i class="fa-solid fa-envelope">
                                 <a href="#"> contact@gmail.com</a>
                             </i>
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="social-links d-none d-md-flex align-items-center">
+                        <div class="social-links d-none d-md-flex align-items-end">
                             <a href="#">
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg" style="height :90px; background:#008374;" ;>
+        <nav class="navbar navbar-expand-lg top-fixed" style="height :90px; background:#008374;" ;>
             <div class="container">
                 <a class="navbar-brand" href="#">Impact<span>.</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -105,7 +105,7 @@
 
     </header>
     <!-- banner -->
-    <section class="banner" style=" background:#008374;">
+    <section class="banner" style=" background:#008374; height:600px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -116,7 +116,15 @@
                             beatae
                             cumque eum quaerat.
                         </p>
-                        <a class="btn btn-primary" href="#" role="button">Link</a>
+
+                    </div>
+                    <div class="buttons">
+                        <a class="btn-get" href="#">Get Started</a>
+                        <a href="#" class="btn-watch">
+                            <i class="fa-solid fa-play"></i>
+                            <span>Watch video</span>
+                        </a>
+
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -133,38 +141,46 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="icon-box">
-                        <i class="fa-solid fa-presentation-screen"></i>
+                        <div class="icon">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href="#">Lorem Lpsum</a>
+                        </h4>
                     </div>
-                    <h4 class="title">
-                        <a href="#">Lorem Lpsum</a>
-                    </h4>
 
                 </div>
                 <div class="col-lg-3">
                     <div class="icon-box">
-                        <i class="fa-solid fa-gem"></i>
+                        <div class="icon">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href="#">Lorem Lpsum</a>
+                        </h4>
                     </div>
-                    <h4 class="title">
-                        <a href="#">Lorem Lpsum</a>
-                    </h4>
 
                 </div>
                 <div class="col-lg-3">
                     <div class="icon-box">
-                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href="#">Lorem Lpsum</a>
+                        </h4>
                     </div>
-                    <h4 class="title">
-                        <a href="#">Lorem Lpsum</a>
-                    </h4>
 
                 </div>
                 <div class="col-lg-3">
                     <div class="icon-box">
-                        <i class="fa-solid fa-command"></i>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href="#">Lorem Lpsum</a>
+                        </h4>
                     </div>
-                    <h4 class="title">
-                        <a href="#">Lorem Lpsum</a>
-                    </h4>
 
                 </div>
             </div>
@@ -223,14 +239,98 @@
                         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                         cupidatat non proident
                     </p>
-                    <div>
+                    <div class="position-relative mt-4">
                         <img src="./images/about-2 (1).jpg" class="img-fluid rounded mb-4" alt="">
+                        <a href="#" class="glightbox play-btn">
+                            <i class="fa-solid fa-circle-play"></i>
+
+                        </a>
                     </div>
+
                 </div>
 
             </div>
         </div>
     </section>
+
+    <!-- client -->
+    <section class="client">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="client-image">
+                        <img src="./images/client-1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-image">
+                        <img src="./images/client-2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-image">
+                        <img src="./images/client-8.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-image">
+                        <img src="./images/client-4.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-image">
+                        <img src="./images/client-8 (1).png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-image">
+                        <img src="./images/client-5.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- status -->
+    <section class="stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="stats-image">
+                        <img src="./images/stats-img.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="stats-count">
+                        <span>232</span>
+                        <p>
+                            <strong>Happy Clients</strong> consequuntur quae diredo para mesta
+                        </p>
+                    </div>
+
+                    <div class="stats-count">
+                        <span>521</span>
+                        <p>
+                            <strong>Projects</strong> adipisci atque cum quia aut
+                        </p>
+                    </div>
+
+
+                    <div class="stats-count">
+                        <span>453</span>
+                        <p>
+                            <strong>Hours Of Support </strong> aut commodi quaerat
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
 
 
 
