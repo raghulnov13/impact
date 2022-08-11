@@ -187,6 +187,7 @@
     height: 2px;
     left: 0;
     right: 0;
+    margin: auto;
 
 }
 
@@ -276,5 +277,157 @@
 .stats-count p{
     font-size: 14px;
     margin: 5px;
+
+}
+
+
+/* cta */
+.cta-text{
+    background-image: url("../images/cta-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.play-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #008374;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+    left: 515px;
+    top: 0px;
+    padding: 24px;
+}
+.play-btn i{
+    color: #e4e4e4;
+    font-size: 20px;
+    
+}
+.play-btn i:hover{
+    transform: scale(2);
+}
+.cta-text h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.cta-text p{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.cta-text a{
+    text-decoration: none;
+}
+
+.cta-btn{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 48px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.cta-btn:hover{
+    background-color: #008374;
+    color: #e4e4e4;
+}
+
+
+
+/* services */
+.services {
+    margin-top: 100px;
+    background-color: #f6f6f6;
+    padding: 60px;
+}
+
+
+
+.card{
+    margin-bottom: 20px;
+}
+.card:hover{
+    cursor: pointer;
+    
+}
+.card-body{
+    padding: 40px;
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-body .icon{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.icon::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #eeeeee;
+    border-radius: 50px;
+    z-index: 1;
+    top: 10px;
+    right: -20px;
+    transition: 0.3s;
+}
+
+
+.card-body .icon i{
+    color: var(--color-default);
+    font-size: 56px;
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 20px;
+}
+.card-body h3{
+    color: var(--color-default);
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    padding-bottom: 8px;
+    font-size: 22px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 4px solid #eeeeee;
+    transition: 0.3s;
+    
+}
+.card-body p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+
+}
+.card-link {
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    color: #008374;
+
+}
+.card-link i{
+    font-size: 15px;
+    color: #008374;
 
 }
