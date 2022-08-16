@@ -374,30 +374,30 @@
 
 
 
-.card {
+.services .card {
     margin-bottom: 20px;
 }
 
-.card:hover {
+.services .card:hover {
     cursor: pointer;
 
 }
 
-.card-body {
+.services .card-serbody {
     padding: 40px;
     background: #fff;
     height: 100%;
     border-radius: 10px;
 }
 
-.card-body .icon {
+.services .card-serbody .icon {
     width: 48px;
     height: 48px;
     position: relative;
     margin-bottom: 50px;
 }
 
-.icon::before {
+.services .card-serbody .icon::before {
     position: absolute;
     content: "";
     height: 100%;
@@ -411,7 +411,7 @@
 }
 
 
-.card-body .icon i {
+.services .card-serbody .icon i {
     color: var(--color-default);
     font-size: 56px;
     transition: ease-in-out 0.3s;
@@ -420,7 +420,7 @@
     margin-bottom: 20px;
 }
 
-.card-body h3 {
+.services .card-serbody h3 {
     color: var(--color-default);
     font-weight: 700;
     margin: 0 0 20px 0;
@@ -433,14 +433,14 @@
 
 }
 
-.card-body p {
+.services .card-serbody p {
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 0;
 
 }
 
-.card-link {
+.services .card-link {
     text-decoration: none;
     margin-top: 15px;
     display: inline-block;
@@ -448,7 +448,7 @@
 
 }
 
-.card-link i {
+.services .card-link i {
     font-size: 15px;
     color: #008374;
 
@@ -459,36 +459,41 @@
     overflow: hidden;
 
 }
-.row{
-    margin-left: 30px;
-}
-.card{
-    padding:30px;
-    /* position: relative; */
+
+.testimonial .card{
+    position: relative;
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 30px 10px;
+    box-shadow: 0px 0 15px rgb(0 0 0 / 10%);
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
 
 }
-.card img{
+.testimonial .card img{
     width: 90px;
     border-radius: 50px;
     margin-right: 15px;
 }
-.card-text{
-    /* position: absolute;
-    left: 135px; */
+.card-testi{
+    position: absolute;
+    left: 135px;
 
 }
-.card-text h3{
+.card-testi h3{
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 0;
     color: #000;
+    margin-bottom: 5px;
 }
-.card-text h4{
+.card-testi h4{
     font-size: 14px;
     color: #999;
-    margin: 0;
+    margin-bottom: 8px;
 }
-.stars{
+.card-testi .stars{
     font-size: 14px;
     color: #999;
     margin: 0;
@@ -497,12 +502,22 @@
     color: #ffc107;
     margin: 0 1px;
 }
-.card-content p{
+.card-testicontent p{
     font-style: italic;
     margin: 15px auto;
 }
-.card-content i{
+.card-testicontent .fa-quote-left{
     display: inline-block;
     left: -5px;
     position: relative;
+    color: #009d8b;
+    font-size: 26px;
+}
+.card-testicontent .fa-quote-right{
+    display: inline-block;
+    top: 10px;
+    right: -5px;
+    position: relative;
+    color: #009d8b;
+    font-size: 26px;
 }
