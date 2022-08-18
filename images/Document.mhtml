@@ -1,0 +1,92 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///E:/fabevy/task/june-17/index.html
+Subject: Document
+Date: Tue, 16 Aug 2022 16:55:48 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--nVSTB4D51bffxcfKaX7NiIcr23MAa6wuA8xnGozBBW----"
+
+
+------MultipartBoundary--nVSTB4D51bffxcfKaX7NiIcr23MAa6wuA8xnGozBBW----
+Content-Type: text/html
+Content-ID: <frame-60229DA422F710C19A2C333AEC3A5D0C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///E:/fabevy/task/june-17/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <link rel=3D"stylesheet" href=3D"file:///E:/fabevy/task/june-17/css/mai=
+n.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class=3D"header">
+        <div class=3D"container">
+            <div>
+                <div class=3D"content">Yummy</div>
+                <div>
+                    <div class=3D"name">Home</div>
+                    <div class=3D"name">About</div>
+                    <div class=3D"name">Menu</div>
+                    <div class=3D"name">Event</div>
+                    <div class=3D"name">Chefs</div>
+                    <div class=3D"name">Gallery</div>
+                    <div class=3D"name">Drop Down</div>
+                    <div class=3D"name">Contact</div>
+                    <div class=3D"name">Table</div>
+                    <div class=3D"name">Units</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=3D"banner">
+        <div class=3D"container">
+            <div class=3D"left topic">
+                <div class=3D"list">Health</div>
+                <div class=3D"list">Quarnt</div>
+                <div class=3D"list">Book table</div>
+                <div class=3D"list">Watch video</div>
+            </div>
+            <div class=3D"image right">image</div>
+        </div>
+
+    </div> -->
+
+    <div class=3D"own">
+        <strong>MISTAKES</strong> <br>
+        <span>ARE  <br>
+        THE SECRET <br>
+        OF</span> <br>
+        <strong> SUCCESS </strong>
+    </div>
+
+
+</body></html>
+------MultipartBoundary--nVSTB4D51bffxcfKaX7NiIcr23MAa6wuA8xnGozBBW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///E:/fabevy/task/june-17/css/main.css
+
+@charset "utf-8";
+
+.content { color: purple; font-style: inherit; font-size: 140%; }
+
+.container { width: 800px; margin: auto; border: solid green; display: flex=
+; justify-content: space-between; color: orangered; }
+
+.own { text-align: center; background-color: rgb(204, 9, 204); padding: 30p=
+x; width: 200px; height: auto; margin: 80px auto; font-weight: bolder; font=
+-size: larger; line-height: 22px; letter-spacing: 0.8px; box-shadow: rosybr=
+own 5px 5px 3px; }
+
+.own span { }
+
+.own strong { color: white; }
+------MultipartBoundary--nVSTB4D51bffxcfKaX7NiIcr23MAa6wuA8xnGozBBW------
