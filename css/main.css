@@ -555,26 +555,50 @@
 }
 
 .carousel-indicators .active {
-    background-color:#009d8b;
+    background-color: #009d8b;
 }
 
+.port-image img {
+    transition: .3s;
+    overflow: hidden;
+}
 
+.port-image {
+    overflow: hidden;
+    cursor: pointer;
+}
 
+.port-image img:hover {
+    transform: scale(1.5);
+}
 
+h5 .card-title{
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-title a{
+    text-decoration: none;
+    color: #222222;
+    
+}
+.card-title a:hover{
+    color: #009d8b;
+}
+.card-text{
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-right: 50px;
+}
+.portfolio .card{
+    margin-bottom: 20px;
+    
+}
+.portfolio .card-body{
+    padding: 25px 20px;
+    background-color: #fff;
+    border-left: 1px solid white;
+   
+}
