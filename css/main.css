@@ -557,23 +557,25 @@
 .carousel-indicators .active {
     background-color: #009d8b;
 }
+
 /* portfolio */
-.portfolio{
+.portfolio {
     padding: 0 60px;
     overflow: hidden;
 
 }
-.portfolio-info{
+
+.portfolio-info {
     padding: 0 0 20px 0;
-    margin:auto;
+    margin: auto;
     list-style: none;
     text-align: center;
-    
+
 }
-.portfolio-info ul{
-    
-}
-.portfolio-info ul li{
+
+.portfolio-info ul {}
+
+.portfolio-info ul li {
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
@@ -581,15 +583,18 @@
     margin: 0 10px;
     line-height: 1;
     transition: all 0.3s ease-in-out;
-    
+
 }
-.portfolio-info ul li:hover{
+
+.portfolio-info ul li:hover {
     color: #009d8b;
 
 }
-.portfolio-info .active{
+
+.portfolio-info .active {
     color: #009d8b;
 }
+
 .port-image img {
     transition: .3s;
     overflow: hidden;
@@ -604,9 +609,10 @@
     transform: scale(1.5);
 } */
 
-.portfolio .card:hover img{
+.portfolio .card:hover img {
     transform: scale(1.5);
 }
+
 h5 .card-title {
     font-size: 18px;
     font-weight: 600;
@@ -626,7 +632,7 @@ h5 .card-title {
 .card-text {
     color: #6c757d;
     font-size: 14px;
-    padding-right:50px;
+    padding-right: 50px;
 }
 
 .portfolio .card {
@@ -642,15 +648,17 @@ h5 .card-title {
 }
 
 /* team */
-.team{
+.team {
     padding: 60px 0;
     overflow: hidden;
 }
-.team-image{
+
+.team-image {
     /* box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
     padding: 15px;
     background: #fff; */
 }
+
 .team-image img {
     border-radius: 10px;
     overflow: hidden;
@@ -661,8 +669,8 @@ h5 .card-title {
     box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
     padding: 15px;
     background: #fff;
-    
-    
+
+
 }
 
 .card-body {
@@ -715,4 +723,146 @@ h5 .card-title {
 .social-link a:hover {
     border-color: #009d8b;
     color: #009d8b;
+}
+
+/* Pricing */
+.pricing {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.pricing-item {
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgb(108 117 125 / 15%);
+    background: #fff;
+    height: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.pricing h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #555555;
+    text-align: center;
+}
+
+.pricing .icon {
+    margin: 30px auto 30px auto;
+    width: 70px;
+    height: 70px;
+    background:#008374;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    transform-style: preserve-3d;
+}
+
+.pricing .icon i {
+    color:#009d8b;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+    line-height: 0;
+}
+
+
+.pricing h4 {
+    font-size: 48px;
+    color: var(--color-secondary);
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.pricing h4 sup {
+    font-size: 28px;
+}
+
+.pricing h4 span {
+    color: rgba(108, 117, 125, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pricing ul {
+    list-style-type: none;
+    padding: 20px 0;
+    list-style: none;
+    color: #6c757d;
+    text-align: left;
+    line-height: 20px;
+}
+
+.pricing ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.pricing ul li i {
+    color: #059652;
+    font-size: 24px;
+    padding-right: 3px;
+}
+
+.pricing ul li .line i {
+    color: rgba(108, 117, 125, 0.5);
+
+}
+
+.line span {
+    text-decoration: line-through;
+}
+
+.pricing ul li i {}
+
+.buy-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: var(--color-primary);
+    border: 1px solid rgba(0, 131, 116, 0.2);
+    transition: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-primary);
+    transition: 0.3s;
+}
+
+.pricing-item1{
+    z-index: 10;
+    border: 3px solid red;
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgb(108 117 125 / 15%);
+    background: #fff;
+    height: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+
+/* Faq */
+.faq {
+    /* background-color: #f6f6f6; */
+    padding: 60px 0;
+    overflow: hidden;
+}
+.faq h3{
+    font-weight: 400;
+    font-size: 34px;
+    
+}
+.faq span{
+    font-weight: bolder;
+}
+.faq p{
+    font-size: 15px;
+    color: #6c757d;
 }
