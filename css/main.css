@@ -874,3 +874,77 @@ h5 .card-title {
     box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 6%);
     border-radius: 10px;
 }
+
+/* recent post */
+.recent-post{
+    background-color: #f6f6f6;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.recent-post h6{
+    font-size: 16px;
+    color: #6f6f6f;
+    margin-bottom: 10px;
+}
+.recent-post h4{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.recent-post h4 a{
+    color: var(--color-default);
+    transition: 0.3s;
+    text-decoration: none;
+}
+.recent-post h4 a:hover{
+    color: #009d8b;
+}
+.author img{
+    width: 50px;
+    border-radius: 50%;
+    /* margin-right: 15px; */
+}
+.author-content p{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.author-content h5{
+    font-size: 14px;
+    color: #3c3c3c;
+    margin-bottom: 0;
+}
+.recent-post .card {
+    position: relative;
+    
+
+}
+.card-post{
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding: 10px 30px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.author-content{
+    position: absolute;
+    bottom: 15px;
+    left: 93px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
