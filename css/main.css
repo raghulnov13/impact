@@ -983,6 +983,56 @@ h5 .card-title {
     bottom: 15px;
     left: 93px;
 }
+/* contact */
+.info-container{
+    background-color:#008374;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+}
+.contact-details{
+    width: 100%;
+    background-color: #009282;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.contact-icon{
+    
+
+}
+.contact-icon i{
+    font-size: 20px;
+    color: #fff;
+    /* float: left; */
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+
+
+}
+.contact-info{
+
+
+}
+.contact-info h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+.contact-info p{
+    font-size: 14px;
+
+}
 /* footer */
 .footer{
     font-size: 14px;
