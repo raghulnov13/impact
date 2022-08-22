@@ -794,7 +794,7 @@ h5 .card-title {
 
 .pricing h4 {
     font-size: 48px;
-    color: orangered;
+    color:#f85a40;
     font-weight: 700;
     text-align: center;
 }
@@ -982,6 +982,80 @@ h5 .card-title {
     position: absolute;
     bottom: 15px;
     left: 93px;
+}
+/* footer */
+.footer{
+    font-size: 14px;
+    background-color:#008374;
+    padding: 50px 0;
+    color: white;
+}
+.footer-info{
+    margin-bottom: 25px;
+}
+.footer-info a{
+    text-decoration: none;
+}
+.footer-info span{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.social-links{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.social-links a{
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+}
+.footer-info p{
+    font-size: 14px;
+}
+.footer h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+.footer-links{
+    /* margin-bottom: 30px; */
+}
+.footer-links ul{
+    list-style: none;
+    
+}
+.footer-links ul li{
+    /* padding: 10px 0; */
+}
+.footer-links ul li a{
+    /* text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; */
+}
+
+.footer-contact{
+    
+}
+.footer-contact p{
+    line-height: 26px;
+}
+.footer-contact p strong{
+    font-weight: bolder;
 }
 
 
