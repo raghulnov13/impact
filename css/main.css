@@ -824,11 +824,12 @@ h5 .card-title {
 .pricing ul li i {}
 
 .buy-btn {
+    align-items: center;
     text-decoration: none;
     display: inline-block;
     padding: 10px 40px;
     border-radius: 50px;
-    color: var(--color-primary);
+    color:#009d8b;
     border: 1px solid rgba(0, 131, 116, 0.2);
     transition: none;
     font-size: 16px;
@@ -836,7 +837,10 @@ h5 .card-title {
     font-family: var(--font-primary);
     transition: 0.3s;
 }
-
+.buy-btn:hover{
+    background-color: #009d8b;
+    color: white;
+}
 .pricing-item1{
     z-index: 10;
     border: 3px solid red;
@@ -874,7 +878,26 @@ h5 .card-title {
     box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 6%);
     border-radius: 10px;
 }
-
+.faq .accordion-button{
+    padding: 20px 50px 20px 20px;
+    font-weight: 600;
+    border: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-default);
+    text-align: left;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 10px;
+}
+.faq .accordion-button:focus{
+    color: #009d8b;
+}
+.faq span{
+    color: #009d8b;
+    padding-right: 10px;
+    font-size: 20px;
+}
 /* recent post */
 .recent-post{
     background-color: #f6f6f6;
