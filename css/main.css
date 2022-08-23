@@ -1056,12 +1056,12 @@ h5 .card-title {
     letter-spacing: 1px;
     color: #fff;
 }
-.social-links{
+.media-links{
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    
 }
-.social-links a{
+.media-links a{
+    margin-right: 10px;
     text-decoration: none;
     display: inline-block;
     display: flex;
@@ -1084,17 +1084,17 @@ h5 .card-title {
     position: relative;
     padding-bottom: 12px;
 }
-.footer-links{
+.footer-nav{
     margin-bottom: 30px;
 }
-.footer-links ul{
+.footer-nav ul{
     list-style: none;
     
 }
-.footer-links ul li{
+.footer-nav ul li{
     padding: 10px 0;
 }
-.footer-links ul li a{
+.footer-nav ul li a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
     transition: 0.3s;
@@ -1160,7 +1160,18 @@ button[type=submit]{
     transition: 0.4s;
     border-radius: 50px;
 }
-
+.copyrights{
+    text-align: center;
+}
+.credits{
+    padding-top: 4px;
+    text-align: center;
+    font-size: 13px;
+}
+.credits a{
+    color: #fff;
+    text-decoration: none;
+}
 
 
 
