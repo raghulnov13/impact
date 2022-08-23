@@ -1085,21 +1085,21 @@ h5 .card-title {
     padding-bottom: 12px;
 }
 .footer-links{
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
 }
 .footer-links ul{
     list-style: none;
     
 }
 .footer-links ul li{
-    /* padding: 10px 0; */
+    padding: 10px 0;
 }
 .footer-links ul li a{
-    /* text-decoration: none;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
     transition: 0.3s;
     display: inline-block;
-    line-height: 1; */
+    line-height: 1;
 }
 
 .footer-contact{
