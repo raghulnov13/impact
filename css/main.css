@@ -1111,6 +1111,7 @@ h5 .card-title {
 .footer-contact p strong{
     font-weight: bolder;
 }
+
 form{
     width: 100%;
     height: 100%;
@@ -1172,6 +1173,7 @@ button[type=submit]{
     color: #fff;
     text-decoration: none;
 }
+
 
 
 
