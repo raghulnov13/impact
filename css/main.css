@@ -52,7 +52,7 @@
     color: #f85a40;
 }
 
-.p-0 {
+/* .p-0 {
     padding: 0 !important;
 }
 
@@ -62,7 +62,7 @@
 
 .p-lt-10 {
     padding-left: 10px !important;
-}
+} */
 
 /* banner */
 
@@ -179,15 +179,17 @@
     position: relative;
 }
 
-.section-title h2::before {
+.section-title h2::after {
     content: "";
     display: block;
     position: absolute;
-    width: 40px;
-    height: 2px;
+    width: 50px;
+    height: 3px;
     left: 0;
     right: 0;
+    bottom: 0;
     margin: auto;
+    background-color: #009d8b;
 
 }
 
@@ -234,11 +236,19 @@
 }
 
 .play-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #008374;
+    border-radius: 100%;
     position: absolute;
-    left: 47%;
-    top: 47%;
     overflow: hidden;
+    top: 170px;
+    left: 250px;
+    padding: 20px;
+    text-decoration: none;
 }
 
 .play-btn i {
@@ -298,31 +308,31 @@
     overflow: hidden;
     text-align: center;
     margin-top: 70px;
-
-}
-
-.play-btn {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    width: 60px;
-    height: 60px;
-    background-color: #008374;
-    border-radius: 100%;
     position: relative;
-    overflow: hidden;
-    left: 515px;
-    top: 0px;
-    padding: 24px;
+
 }
 
-.play-btn i {
+.cta-btn{
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 48px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.cta-btn i {
     color: #e4e4e4;
     font-size: 20px;
 
 }
 
-.play-btn i:hover {
+.cta-btn i:hover {
     transform: scale(2);
 }
 
