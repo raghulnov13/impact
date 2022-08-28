@@ -27,6 +27,8 @@
 .header-top {
     background: #00796b;
     height: 40px;
+    position: sticky;
+    top: 0;
 }
 
 .header-links {
@@ -63,6 +65,11 @@
     font-weight: 600;
     letter-spacing: 0.8px;
     color: #fff;
+}
+
+.navbar {
+    height :90px;
+    background:#008374;
 }
 
 .navbar-brand span {
