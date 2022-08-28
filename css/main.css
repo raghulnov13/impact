@@ -2,16 +2,38 @@
 
 .info a {
     text-decoration: none;
+    color: #fff;
 }
 
-.social-links a {
+.header-links a {
     color: rgba(255, 255, 255, 0.7);
     line-height: 0;
     transition: 0.3s;
     margin-left: 20px;
 }
+.info{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    
 
-.inf0 i {
+}
+.info1{
+    margin-right: 20px;
+}
+.header-top {
+    background: #00796b;
+    height: 40px;
+}
+.header-links{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.header-links a:hover{
+    color:  #fff;;
+}
+.info i {
     font-style: normal;
     color: #fff;
 }
@@ -19,6 +41,9 @@
 .info i a {
     padding-left: 5px;
     color: #fff;
+}
+.info2 i{
+    font-size: 18px;
 }
 
 
@@ -312,7 +337,7 @@
 
 }
 
-.cta-btn{
+.cta-btn {
     font-family: var(--font-primary);
     font-weight: 500;
     font-size: 16px;
@@ -1154,7 +1179,8 @@ button[type=submit] {
 .media-links a:hover {
     border-color: white;
 }
-textarea:focus{
+
+textarea:focus {
     border-color: black;
 }
 
