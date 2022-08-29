@@ -941,7 +941,6 @@ h5 .card-title {
     font-weight: 600;
     font-family: var(--font-primary);
     transition: 0.3s;
-    margin-left: 50px;
 }
 
 .buy-btn:hover {
