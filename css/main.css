@@ -20,7 +20,7 @@
 
 }
 
-.info1 {
+.info {
     margin-right: 20px;
 }
 
@@ -59,7 +59,7 @@
 
 
 /* navbar */
-.navbar-brand {
+.navbar-light .navbar-brand {
     font-size: 30px;
     margin: 0;
     font-weight: 600;
@@ -68,28 +68,30 @@
 }
 
 .navbar {
-    height :90px;
-    background:#008374;
+    height: 90px;
+    background: #008374;
 }
 
-.navbar-brand span {
+.navbar-light .navbar-brand span {
     color: #f96f59;
 }
 
-.navbar-nav {
+.navbar-light .navbar-nav {
     color: #fff;
+    
 }
 
-.nav-item a {
+.navbar-light  .navbar-nav .nav-item a {
     color: #fff;
+    margin-right: 20px;
 }
 
-.nav-item a:hover {
+.navbar-light .navbar-nav .nav-item a:hover {
     color: #f85a40;
 }
 
-.nav-links .active {
-    color: #f85a40;
+.navbar-light .navbar-nav .nav-link.active {
+    color:#f85a40;
 }
 
 /* banner */
